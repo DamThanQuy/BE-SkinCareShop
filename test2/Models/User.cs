@@ -19,11 +19,11 @@ public partial class User
 
     public string Phone { get; set; } = null!;
 
-    public string Address { get; set; } = null!;
+    public string? Address { get; set; }
 
     public DateTime RegistrationDate { get; set; }
 
-    public string UserType { get; set; }
+    public string? SkinType { get; set; } // ✅ Thêm thuộc tính mới
 
     public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 

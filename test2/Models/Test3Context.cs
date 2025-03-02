@@ -57,7 +57,7 @@ public partial class Test3Context : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=QUYDAM;uid=sa;pwd=12345;database=test3;TrustServerCertificate=True;Trusted_Connection=True;");
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-31MEM5BR\\GIANG0409;uid=sa;pwd=12345;database=test;TrustServerCertificate=True;Trusted_Connection=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -102,29 +102,7 @@ public partial class Test3Context : DbContext
                 .HasConstraintName("FK__Carts__UserID__75A278F5");
         });
 
-        modelBuilder.Entity<CartItem>(entity =>
-        {
-            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B2ABEFD9837");
-
-            entity.Property(e => e.CartItemId).HasColumnName("CartItemID");
-            entity.Property(e => e.CartId).HasColumnName("CartID");
-            entity.Property(e => e.CreatedAt).HasColumnType("datetime");
-            entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
-            entity.Property(e => e.ProductId).HasColumnName("ProductID");
-            entity.Property(e => e.SellerFullName).HasMaxLength(255);
-            entity.Property(e => e.UpdatedAt).HasColumnType("datetime");
-
-            entity.HasOne(d => d.Cart).WithMany(p => p.CartItems)
-                .HasForeignKey(d => d.CartId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CartItems__CartI__7C4F7684");
-
-            entity.HasOne(d => d.Product).WithMany(p => p.CartItems)
-                .HasForeignKey(d => d.ProductId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CartItems__Produ__7D439ABD");
-        });
-
+       
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A2BFB276FA4");
@@ -284,6 +262,10 @@ public partial class Test3Context : DbContext
             entity.Property(e => e.ProductCode).HasMaxLength(50);
             entity.Property(e => e.ProductName).HasMaxLength(255);
             entity.Property(e => e.SkinType).HasMaxLength(255);
+            entity.Property(e => e.Description).HasColumnType("text");
+            entity.Property(e => e.Ingredients).HasColumnType("text");
+            entity.Property(e => e.UsageInstructions).HasColumnType("text");
+            entity.Property(e => e.ManufactureDate).HasColumnType("datetime");
             entity.Property(e => e.Status)
                 .HasMaxLength(50)
                 .HasDefaultValue("Available");

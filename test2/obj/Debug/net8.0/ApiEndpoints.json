@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[test2.Models.CartItem, test2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CartItem, test2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -138,13 +138,13 @@
     "Parameters": [
       {
         "Name": "cartItem",
-        "Type": "test2.Models.CartItem",
+        "Type": "CartItem",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "test2.Models.CartItem",
+        "Type": "CartItem",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "test2.Models.CartItem",
+        "Type": "CartItem",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -195,7 +195,7 @@
       },
       {
         "Name": "cartItem",
-        "Type": "test2.Models.CartItem",
+        "Type": "CartItem",
         "IsRequired": true
       }
     ],
@@ -321,6 +321,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test2.Controllers.CartsController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Carts/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "test2.Controllers.CartItemsController\u002BAddToCartRequest",
         "IsRequired": true
       }
     ],
@@ -539,38 +555,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "test2.Controllers.LoginGoogleController",
-    "Method": "CompleteRegistration",
-    "RelativePath": "api/LoginGoogle/complete-registration",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "test2.Controllers.LoginGoogleController\u002BCompleteRegistrationRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "test2.Controllers.LoginGoogleController",
-    "Method": "GoogleLogin",
-    "RelativePath": "api/LoginGoogle/google-login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "test2.Controllers.LoginGoogleController\u002BGoogleLoginRequest",
         "IsRequired": true
       }
     ],
@@ -1475,6 +1459,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "test2.Controllers.QuizController",
+    "Method": "GetQuizQuestions",
+    "RelativePath": "api/Quiz/questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[test2.DTOs.QuizQuestionDto, test2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "test2.Controllers.QuizController",
+    "Method": "ResetQuiz",
+    "RelativePath": "api/Quiz/reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submission",
+        "Type": "test2.DTOs.QuizSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test2.Controllers.QuizController",
+    "Method": "SubmitQuizResponses",
+    "RelativePath": "api/Quiz/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submission",
+        "Type": "test2.DTOs.QuizSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "test2.Controllers.QuizAnswersController",
     "Method": "GetQuizAnswers",
     "RelativePath": "api/QuizAnswers",
@@ -1802,6 +1838,24 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
+    "RelativePath": "api/test",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "test2.Controllers.UserQuizResponsesController",
     "Method": "GetUserQuizResponses",
     "RelativePath": "api/UserQuizResponses",
@@ -1958,7 +2012,7 @@
   },
   {
     "ContainingType": "test2.Controllers.UsersController",
-    "Method": "UpdateUser",
+    "Method": "PutUser",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "PUT",
     "IsController": true,

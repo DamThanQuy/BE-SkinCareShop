@@ -1,118 +1,185 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\STUDY\\KY5\\SWP\\test2.1\\",
+  "WorkspaceRootPath": "D:\\test2.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\logingooglecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\logingooglecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\models\\googleuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\googleuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\userskintyperesultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\userskintyperesultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\quizquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\quizquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\quizanswerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\quizanswerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\productcodecounterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\productcodecounterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\controllers\\cancelrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\cancelrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\models\\test3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\test3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\test3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\models\\productcodecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\quizquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\quizquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\quizzcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\quizzcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\conversationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\quizanswerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\quizanswerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\userskintyperesultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\userskintyperesultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\logingooglecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\logingooglecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\userquizresponsescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\userquizresponsescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\userskintyperesult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\userskintyperesult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\dtos\\quizsubmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\dtos\\quizsubmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\dtos\\quizresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\dtos\\quizresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\dtos\\quizquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\dtos\\quizquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\dtos\\quizanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\dtos\\quizanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\test2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\test2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\quizanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\quizanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\userquizresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\userquizresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\googleuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\googleuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\productcodecounterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\productcodecounterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\controllers\\cancelrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\controllers\\cancelrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\models\\productcodecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\models\\productcodecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\test2.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\test2.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\test2.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\test2.1\\test2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|d:\\study\\ky5\\swp\\test2.1\\test2\\test2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B5CCBF36-6EA8-46BC-AFBD-C1F1DE58D84C}|test2\\test2.csproj|solutionrelative:test2\\test2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,88 +189,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwDQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:51:21.135Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\appsettings.json",
-              "RelativeDocumentMoniker": "test2\\appsettings.json",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\appsettings.json",
-              "RelativeToolTip": "test2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-17T01:41:37.674Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserSkinTypeResultsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\UserSkinTypeResultsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\UserSkinTypeResultsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\UserSkinTypeResultsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\UserSkinTypeResultsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T09:05:06.741Z"
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Program.cs",
-              "RelativeDocumentMoniker": "test2\\Program.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Program.cs",
-              "RelativeToolTip": "test2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T17:18:16.305Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "test2\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAiwGcAAAAwAAAAAAAAAA==",
+              "Title": "Test3Context.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\Test3Context.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\Test3Context.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\Test3Context.cs",
+              "RelativeToolTip": "test2\\Models\\Test3Context.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAawGgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T09:01:11.782Z"
+              "WhenOpened": "2025-02-17T02:09:20.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConversationsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ConversationsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\ConversationsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ConversationsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\ConversationsController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\Cart.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\Cart.cs",
+              "RelativeToolTip": "test2\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:44:46.182Z"
+              "WhenOpened": "2025-03-01T09:02:37.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\CartItem.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\CartItem.cs",
+              "RelativeToolTip": "test2\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:25:35.51Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\CartItemsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\CartItemsController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:42:02.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddToCartDto.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\DTOs\\AddToCartDto.cs",
+              "RelativeDocumentMoniker": "test2\\DTOs\\AddToCartDto.cs",
+              "ToolTip": "D:\\test2.1\\test2\\DTOs\\AddToCartDto.cs",
+              "RelativeToolTip": "test2\\DTOs\\AddToCartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:46:17.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "test2\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "test2\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,47 +285,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginGoogleController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\LoginGoogleController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\LoginGoogleController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\LoginGoogleController.cs",
-              "RelativeToolTip": "test2\\Controllers\\LoginGoogleController.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAIwIwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\CartsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\CartsController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwG4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:41:21.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GoogleUserInfo.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\GoogleUserInfo.cs",
-              "RelativeDocumentMoniker": "test2\\Models\\GoogleUserInfo.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\GoogleUserInfo.cs",
-              "RelativeToolTip": "test2\\Models\\GoogleUserInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:59:30.78Z"
+              "WhenOpened": "2025-02-17T08:41:23.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\User.cs",
-              "RelativeDocumentMoniker": "test2\\Models\\User.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\User.cs",
-              "RelativeToolTip": "test2\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAASAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "test2\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAmwGcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T09:00:50.971Z"
+              "WhenOpened": "2025-02-17T09:01:11.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuizQuestionsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\QuizQuestionsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\QuizQuestionsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\QuizQuestionsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\QuizQuestionsController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAqwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:56:09.625Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ReviewsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ReviewsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\ReviewsController.cs",
               "RelativeDocumentMoniker": "test2\\Controllers\\ReviewsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ReviewsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\ReviewsController.cs",
               "RelativeToolTip": "test2\\Controllers\\ReviewsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,95 +334,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QuizQuestionsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\QuizQuestionsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\QuizQuestionsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\QuizQuestionsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\QuizQuestionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\Product.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\Product.cs",
+              "RelativeToolTip": "test2\\Models\\Product.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:56:09.625Z"
+              "WhenOpened": "2025-02-28T16:00:05.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "QuizAnswersController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\QuizAnswersController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\QuizAnswersController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\QuizAnswersController.cs",
-              "RelativeToolTip": "test2\\Controllers\\QuizAnswersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "QuizzControllers.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\QuizzControllers.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\QuizzControllers.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\QuizzControllers.cs",
+              "RelativeToolTip": "test2\\Controllers\\QuizzControllers.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:55:43.906Z"
+              "WhenOpened": "2025-02-25T20:00:07.276Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "PromotionsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\PromotionsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\PromotionsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\PromotionsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\PromotionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwBcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:55:14.28Z"
+              "WhenOpened": "2025-02-17T08:51:21.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConversationsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\ConversationsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\ConversationsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\ConversationsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\ConversationsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:44:46.182Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ProductCodeCountersController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ProductCodeCountersController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\ProductCodeCountersController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\ProductCodeCountersController.cs",
-              "RelativeToolTip": "test2\\Controllers\\ProductCodeCountersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\MessagesController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "test2\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:51:50.744Z"
+              "WhenOpened": "2025-02-17T08:45:16.257Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\PaymentsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:48:52.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "OrderItemsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\OrderItemsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\OrderItemsController.cs",
               "RelativeDocumentMoniker": "test2\\Controllers\\OrderItemsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\OrderItemsController.cs",
               "RelativeToolTip": "test2\\Controllers\\OrderItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T08:48:14.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "test2\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:46:26.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "NotificationsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\NotificationsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\NotificationsController.cs",
               "RelativeDocumentMoniker": "test2\\Controllers\\NotificationsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\NotificationsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\NotificationsController.cs",
               "RelativeToolTip": "test2\\Controllers\\NotificationsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -355,47 +418,297 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MessagesController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\MessagesController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\MessagesController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\MessagesController.cs",
-              "RelativeToolTip": "test2\\Controllers\\MessagesController.cs",
+              "DocumentIndex": 17,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "test2\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:46:26.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\PaymentsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\PaymentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:45:16.257Z"
+              "WhenOpened": "2025-02-17T08:48:52.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuizAnswersController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\QuizAnswersController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\QuizAnswersController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\QuizAnswersController.cs",
+              "RelativeToolTip": "test2\\Controllers\\QuizAnswersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:55:43.906Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "CartItemsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CartItemsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\CartItemsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CartItemsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\CartItemsController.cs",
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\PromotionsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\PromotionsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:42:02.492Z"
+              "WhenOpened": "2025-02-17T08:55:14.28Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "CartsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CartsController.cs",
-              "RelativeDocumentMoniker": "test2\\Controllers\\CartsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CartsController.cs",
-              "RelativeToolTip": "test2\\Controllers\\CartsController.cs",
+              "Title": "UserSkinTypeResultsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\UserSkinTypeResultsController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\UserSkinTypeResultsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\UserSkinTypeResultsController.cs",
+              "RelativeToolTip": "test2\\Controllers\\UserSkinTypeResultsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:41:23.388Z"
+              "WhenOpened": "2025-02-17T09:05:06.741Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "LoginGoogleController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\LoginGoogleController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\LoginGoogleController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\LoginGoogleController.cs",
+              "RelativeToolTip": "test2\\Controllers\\LoginGoogleController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwIwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:41:21.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserQuizResponsesController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\UserQuizResponsesController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\UserQuizResponsesController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\UserQuizResponsesController.cs",
+              "RelativeToolTip": "test2\\Controllers\\UserQuizResponsesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:13:08.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\test2.1\\test2\\appsettings.json",
+              "RelativeDocumentMoniker": "test2\\appsettings.json",
+              "ToolTip": "D:\\test2.1\\test2\\appsettings.json",
+              "RelativeToolTip": "test2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T01:41:37.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\User.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\User.cs",
+              "RelativeToolTip": "test2\\Models\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T09:00:50.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\QuizQuestion.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\QuizQuestion.cs",
+              "RelativeToolTip": "test2\\Models\\QuizQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:44:49.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QuizSubmissionDto.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\DTOs\\QuizSubmissionDto.cs",
+              "RelativeDocumentMoniker": "test2\\DTOs\\QuizSubmissionDto.cs",
+              "ToolTip": "D:\\test2.1\\test2\\DTOs\\QuizSubmissionDto.cs",
+              "RelativeToolTip": "test2\\DTOs\\QuizSubmissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:28:04.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\Category.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\Category.cs",
+              "RelativeToolTip": "test2\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T09:02:44.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserSkinTypeResult.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\UserSkinTypeResult.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\UserSkinTypeResult.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\UserSkinTypeResult.cs",
+              "RelativeToolTip": "test2\\Models\\UserSkinTypeResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:13:24.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\Payment.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\Payment.cs",
+              "RelativeToolTip": "test2\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:00:06.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QuizResponseDto.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\DTOs\\QuizResponseDto.cs",
+              "RelativeDocumentMoniker": "test2\\DTOs\\QuizResponseDto.cs",
+              "ToolTip": "D:\\test2.1\\test2\\DTOs\\QuizResponseDto.cs",
+              "RelativeToolTip": "test2\\DTOs\\QuizResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:28:29.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "QuizQuestionDto.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\DTOs\\QuizQuestionDto.cs",
+              "RelativeDocumentMoniker": "test2\\DTOs\\QuizQuestionDto.cs",
+              "ToolTip": "D:\\test2.1\\test2\\DTOs\\QuizQuestionDto.cs",
+              "RelativeToolTip": "test2\\DTOs\\QuizQuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:28:59.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "QuizAnswerDto.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\DTOs\\QuizAnswerDto.cs",
+              "RelativeDocumentMoniker": "test2\\DTOs\\QuizAnswerDto.cs",
+              "ToolTip": "D:\\test2.1\\test2\\DTOs\\QuizAnswerDto.cs",
+              "RelativeToolTip": "test2\\DTOs\\QuizAnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:29:32.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "QuizAnswer.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\QuizAnswer.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\QuizAnswer.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\QuizAnswer.cs",
+              "RelativeToolTip": "test2\\Models\\QuizAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:13:33.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Program.cs",
+              "RelativeDocumentMoniker": "test2\\Program.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Program.cs",
+              "RelativeToolTip": "test2\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:18:16.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "test2.csproj",
+              "DocumentMoniker": "D:\\test2.1\\test2\\test2.csproj",
+              "RelativeDocumentMoniker": "test2\\test2.csproj",
+              "ToolTip": "D:\\test2.1\\test2\\test2.csproj",
+              "RelativeToolTip": "test2\\test2.csproj",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T01:41:00.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserQuizResponse.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\UserQuizResponse.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\UserQuizResponse.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\UserQuizResponse.cs",
+              "RelativeToolTip": "test2\\Models\\UserQuizResponse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:44:33.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALcUAAAAAAAAAAAiwMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-25T20:04:38.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GoogleUserInfo.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\GoogleUserInfo.cs",
+              "RelativeDocumentMoniker": "test2\\Models\\GoogleUserInfo.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\GoogleUserInfo.cs",
+              "RelativeToolTip": "test2\\Models\\GoogleUserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:59:30.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductCodeCountersController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\ProductCodeCountersController.cs",
+              "RelativeDocumentMoniker": "test2\\Controllers\\ProductCodeCountersController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\ProductCodeCountersController.cs",
+              "RelativeToolTip": "test2\\Controllers\\ProductCodeCountersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:51:50.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "CancelRequestsController.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CancelRequestsController.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Controllers\\CancelRequestsController.cs",
               "RelativeDocumentMoniker": "test2\\Controllers\\CancelRequestsController.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Controllers\\CancelRequestsController.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Controllers\\CancelRequestsController.cs",
               "RelativeToolTip": "test2\\Controllers\\CancelRequestsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -403,23 +716,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Test3Context.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\Test3Context.cs",
-              "RelativeDocumentMoniker": "test2\\Models\\Test3Context.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\Test3Context.cs",
-              "RelativeToolTip": "test2\\Models\\Test3Context.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:09:20.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 42,
               "Title": "ProductCodeCounter.cs",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\ProductCodeCounter.cs",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Models\\ProductCodeCounter.cs",
               "RelativeDocumentMoniker": "test2\\Models\\ProductCodeCounter.cs",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Models\\ProductCodeCounter.cs",
+              "ToolTip": "D:\\test2.1\\test2\\Models\\ProductCodeCounter.cs",
               "RelativeToolTip": "test2\\Models\\ProductCodeCounter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,11 +728,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 43,
               "Title": "test2.csproj.Backup.tmp",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\test2.csproj.Backup.tmp",
+              "DocumentMoniker": "D:\\test2.1\\test2\\test2.csproj.Backup.tmp",
               "RelativeDocumentMoniker": "test2\\test2.csproj.Backup.tmp",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\test2.csproj.Backup.tmp",
+              "ToolTip": "D:\\test2.1\\test2\\test2.csproj.Backup.tmp",
               "RelativeToolTip": "test2\\test2.csproj.Backup.tmp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -439,27 +740,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\test2.1\\test2\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "test2\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\test2.1\\test2\\Properties\\launchSettings.json",
               "RelativeToolTip": "test2\\Properties\\launchSettings.json",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-17T02:01:19.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "test2.csproj",
-              "DocumentMoniker": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\test2.csproj",
-              "RelativeDocumentMoniker": "test2\\test2.csproj",
-              "ToolTip": "D:\\STUDY\\KY5\\SWP\\test2.1\\test2\\test2.csproj",
-              "RelativeToolTip": "test2\\test2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T01:41:00.288Z"
             }
           ]
         }

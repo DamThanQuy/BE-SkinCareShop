@@ -1,29 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using test2.Models;
 
-namespace test2.Models;
-
-public partial class CartItem
+public class CartItem
 {
     public int CartItemId { get; set; }
-
     public int CartId { get; set; }
-
     public int ProductId { get; set; }
-
     public int Quantity { get; set; }
-
-    public decimal Price { get; set; }
-
-    public bool IsCustomOrder { get; set; }
-
-    public DateTime CreatedAt { get; set; }
-
-    public DateTime UpdatedAt { get; set; }
-
-    public string SellerFullName { get; set; } = null!;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
     public virtual Cart Cart { get; set; } = null!;
-
     public virtual Product Product { get; set; } = null!;
 }

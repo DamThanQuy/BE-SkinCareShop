@@ -29,6 +29,14 @@ public partial class Product
 
     public string? SkinType { get; set; }
 
+    public string? Description { get; set; }
+
+    public string? Ingredients { get; set; }
+
+    public string? UsageInstructions { get; set; }
+
+    public DateTime? ManufactureDate { get; set; }
+
     public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 
     public virtual Category Category { get; set; } = null!;

@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using test2.Models;
+using static test2.Controllers.CartItemsController;
 
 namespace test2.Controllers
 {
@@ -20,6 +23,7 @@ namespace test2.Controllers
             _context = context;
         }
 
+        
         // GET: api/Carts
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cart>>> GetCarts()
@@ -103,5 +107,78 @@ namespace test2.Controllers
         {
             return _context.Carts.Any(e => e.CartId == id);
         }
+
+      
+        [HttpPost("add")]
+        public async Task<IActionResult> AddToCart([FromBody] AddToCartRequest request)
+        {
+            var user = await _context.Users.FindAsync(request.UserId);
+            if (user == null)
+            {
+                return NotFound("User not found.");
+            }
+
+            var product = await _context.Products.FindAsync(request.ProductId);
+            if (product == null)
+            {
+                return NotFound("Product not found.");
+            }
+
+            if (product.Quantity < request.Quantity)
+            {
+                return BadRequest("Not enough stock available.");
+            }
+
+            // Kiểm tra giỏ hàng của user
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .FirstOrDefaultAsync(c => c.UserId == request.UserId);
+
+            if (cart == null)
+            {
+                // Tạo giỏ hàng mới nếu chưa có
+                cart = new Cart
+                {
+                    UserId = request.UserId,
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow,
+                    Status = "Active",
+                    CartItems = new List<CartItem>()
+                };
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
+            }
+
+            // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
+            var cartItem = cart.CartItems.FirstOrDefault(ci => ci.ProductId == request.ProductId);
+
+            if (cartItem != null)
+            {
+                // Nếu sản phẩm đã có, cập nhật số lượng
+                cartItem.Quantity += request.Quantity;
+            }
+            else
+            {
+                // Nếu chưa có, thêm mới sản phẩm vào giỏ hàng
+                cart.CartItems.Add(new CartItem
+                {
+                    CartId = cart.CartId,
+                    ProductId = request.ProductId,
+                    Quantity = request.Quantity
+                });
+            }
+
+            // Cập nhật giỏ hàng
+            cart.UpdatedAt = DateTime.UtcNow;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Product added to cart successfully!" });
+        }
+
     }
 }
+
+
+    // PUT: api/Carts/{cartId}/updatecartitems
+
+

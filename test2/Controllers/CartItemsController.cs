@@ -82,6 +82,12 @@ namespace test2.Controllers
 
             return CreatedAtAction("GetCartItem", new { id = cartItem.CartItemId }, cartItem);
         }
+        public class AddToCartRequest
+        {
+            public int UserId { get; set; }
+            public int ProductId { get; set; }
+            public int Quantity { get; set; }
+        }
 
         // DELETE: api/CartItems/5
         [HttpDelete("{id}")]

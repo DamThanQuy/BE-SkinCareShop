@@ -4667,6 +4667,10 @@
           "password": {
             "type": "string",
             "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -4752,7 +4756,7 @@
             "type": "string",
             "nullable": true
           },
-          "userType": {
+          "role": {
             "type": "string",
             "nullable": true
           }
@@ -4797,10 +4801,6 @@
           "registrationDate": {
             "type": "string",
             "format": "date-time"
-          },
-          "userType": {
-            "type": "string",
-            "nullable": true
           },
           "carts": {
             "type": "array",

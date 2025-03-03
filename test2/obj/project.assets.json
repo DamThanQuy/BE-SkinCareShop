@@ -8720,11 +8720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test2.1\\test2\\test2.csproj",
+      "projectUniqueName": "C:\\Users\\TUF\\Documents\\GitHub\\SWP391\\test2\\test2.csproj",
       "projectName": "test2",
-      "projectPath": "D:\\test2.1\\test2\\test2.csproj",
+      "projectPath": "C:\\Users\\TUF\\Documents\\GitHub\\SWP391\\test2\\test2.csproj",
       "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
-      "outputPath": "D:\\test2.1\\test2\\obj\\",
+      "outputPath": "C:\\Users\\TUF\\Documents\\GitHub\\SWP391\\test2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

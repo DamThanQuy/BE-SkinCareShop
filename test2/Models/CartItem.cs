@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace test2.Models;
 
 public partial class CartItem
 {
+    [Key]
     public int CartItemId { get; set; }
 
     public int CartId { get; set; }

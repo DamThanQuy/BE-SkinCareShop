@@ -29,7 +29,15 @@ public partial class Product
 
     public string? SkinType { get; set; }
 
-    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+    public string? Description { get; set; }
+
+    public string? Ingredients { get; set; }
+
+    public string? UsageInstructions { get; set; }
+
+    public DateTime? ManufactureDate { get; set; }
+
+    public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
     public virtual Category Category { get; set; } = null!;
 
@@ -38,4 +46,5 @@ public partial class Product
     public virtual ICollection<Promotion> Promotions { get; set; } = new List<Promotion>();
 
     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 }

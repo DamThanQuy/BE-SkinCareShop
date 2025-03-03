@@ -19,15 +19,9 @@ public partial class Order
 
     public decimal TotalAmount { get; set; }
 
-    public string OrderDelivery { get; set; } = null!;
+    public string Note { get; set; } = null!;
 
     public string WardCode { get; set; } = null!;
-
-    public string WardName { get; set; } = null!;
-
-    public int ToDistrictId { get; set; }
-
-    public string Note { get; set; } = null!;
 
     public virtual ICollection<CancelRequest> CancelRequests { get; set; } = new List<CancelRequest>();
 

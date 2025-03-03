@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using test2.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace test2.Controllers
 {
@@ -14,10 +15,12 @@ namespace test2.Controllers
     public class UsersController : ControllerBase
     {
         private readonly Test3Context _context;
+        private readonly IConfiguration _configuration;
 
-        public UsersController(Test3Context context)
+        public UsersController(Test3Context context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         // GET: api/Users
@@ -46,7 +49,7 @@ namespace test2.Controllers
                     u.Email,
                     u.Phone,
                     u.Address,
-                    UserType = u.Role,
+                    u.Role,
                     u.FullName,
                     u.RegistrationDate
                 })
@@ -72,7 +75,7 @@ namespace test2.Controllers
                     u.Email,
                     u.Phone,
                     u.Address,
-                    UserType = u.Role,
+                    u.Role,
                     u.FullName,
                     u.RegistrationDate
                 })
@@ -103,7 +106,7 @@ namespace test2.Controllers
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, User user)
+        public async Task<IActionResult> PutUser(int id, User user)
         {
             if (id != user.UserId)
             {
@@ -168,7 +171,7 @@ namespace test2.Controllers
                     user.Email,
                     user.Phone,
                     user.Address,
-                    UserType = user.Role,
+                    user.Role,
                     user.FullName,
                     user.RegistrationDate
                 });
@@ -183,50 +186,117 @@ namespace test2.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<User>> Register([FromBody] RegisterRequest registerRequest)
         {
-            var existingUser = await _context.Users
-                .FirstOrDefaultAsync(u => u.Name == registerRequest.Username);
-
-            if (existingUser != null)
+            try 
             {
-                return Conflict("Username already exists.");
+                if (string.IsNullOrEmpty(registerRequest.Username) || 
+                    string.IsNullOrEmpty(registerRequest.Password) ||
+                    string.IsNullOrEmpty(registerRequest.Email))
+                {
+                    return BadRequest("Username, password and email are required.");
+                }
+
+                // Check if username exists
+                var existingUser = await _context.Users
+                    .FirstOrDefaultAsync(u => u.Name == registerRequest.Username);
+
+                if (existingUser != null)
+                {
+                    return Conflict("Username already exists.");
+                }
+
+                // Check if email exists
+                var existingEmail = await _context.Users
+                    .FirstOrDefaultAsync(u => u.Email == registerRequest.Email);
+
+                if (existingEmail != null)
+                {
+                    return Conflict("Email already exists.");
+                }
+
+                var newUser = new User
+                {
+                    Name = registerRequest.Username,
+                    FullName = registerRequest.Username, // Using username as initial full name
+                    Password = registerRequest.Password,
+                    Email = registerRequest.Email,
+                    Role = "Costumer", // Đặt Role cho người dùng mới
+                    Phone = "N/A", // Default phone
+                    Address = "N/A", // Default address
+                    RegistrationDate = DateTime.Now
+                };
+
+                _context.Users.Add(newUser);
+                try {
+                    await _context.SaveChangesAsync();
+                } catch (DbUpdateException dbEx) {
+                    var message = dbEx.InnerException?.Message ?? dbEx.Message;
+                    if (message.Contains("UQ__Users__A9D10534"))
+                    {
+                        return Conflict("Email already exists.");
+                    }
+                    if (message.Contains("CHK_UserRole"))
+                    {
+                        return BadRequest("Invalid user role.");
+                    }
+                    return StatusCode(500, $"Database error: {message}");
+                }
+
+                return Ok(new
+                {
+                    newUser.UserId,
+                    newUser.Name,
+                    newUser.FullName,
+                    newUser.Email,
+                    newUser.Phone,
+                    newUser.Address,
+                    newUser.Role,
+                    newUser.RegistrationDate
+                });
             }
-
-            var newUser = new User
+            catch (Exception ex)
             {
-                Name = registerRequest.Username,
-                Password = registerRequest.Password // Lưu ý: Nên mã hóa mật khẩu trước khi lưu vào DB
-            };
-
-            _context.Users.Add(newUser);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetUser", new { id = newUser.UserId }, newUser);
+                return StatusCode(500, $"An error occurred while registering: {ex.Message}. Inner exception: {ex.InnerException?.Message}");
+            }
         }
 
         // POST: api/Users/login
         [HttpPost("login")]
         public async Task<ActionResult<object>> Login([FromBody] LoginRequest loginRequest)
         {
-            var user = await _context.Users
-                .Where(u => u.Name == loginRequest.Username && u.Password == loginRequest.Password)
-                .Select(u => new {
-                    u.UserId,
-                    u.Name,
-                    u.Email,
-                    u.Phone,
-                    u.Address,
-                    UserType = u.Role,
-                    u.FullName,
-                    u.RegistrationDate
-                })
-                .FirstOrDefaultAsync();
-
-            if (user == null)
+            try
             {
-                return Unauthorized("Invalid username or password");
-            }
+                // Kiểm tra xem email và password có được cung cấp không
+                if (string.IsNullOrEmpty(loginRequest.Email) || string.IsNullOrEmpty(loginRequest.Password))
+                {
+                    return BadRequest("Email and password are required");
+                }
 
-            return Ok(user);
+                // Tìm người dùng bằng email và password
+                var user = await _context.Users
+                    .Where(u => u.Email == loginRequest.Email && u.Password == loginRequest.Password)
+                    .Select(u => new {
+                        u.UserId,
+                        u.Name,
+                        u.FullName,
+                        u.Email,
+                        u.Phone,
+                        u.Address,
+                        u.Role,
+                        u.RegistrationDate
+                    })
+                    .FirstOrDefaultAsync();
+
+                if (user == null)
+                {
+                    return Unauthorized("Invalid email or password");
+                }
+
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred while logging in: {ex.Message}");
+            }
         }
 
         // DELETE: api/Users/5
@@ -271,8 +341,8 @@ namespace test2.Controllers
                 user.Phone = request.Phone;
             if (!string.IsNullOrEmpty(request.Address))
                 user.Address = request.Address;
-            if (!string.IsNullOrEmpty(request.UserType))
-                user.Role = request.UserType;
+            if (!string.IsNullOrEmpty(request.Role))
+                user.Role = request.Role;
             if (!string.IsNullOrEmpty(request.Name))
                 user.Name = request.Name;
 
@@ -286,7 +356,7 @@ namespace test2.Controllers
                     user.Email,
                     user.Phone,
                     user.Address,
-                    UserType = user.Role,
+                    user.Role,
                     user.FullName,
                     user.RegistrationDate
                 });
@@ -352,11 +422,12 @@ namespace test2.Controllers
     {
         public string Username { get; set; }
         public string Password { get; set; }
+        public string Email { get; set; }
     }
 
     public class LoginRequest
     {
-        public string Username { get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
     }
 
@@ -375,7 +446,7 @@ namespace test2.Controllers
         public string? Email { get; set; }
         public string? Phone { get; set; }
         public string? Address { get; set; }
-        public string? UserType { get; set; }
+        public string? Role { get; set; }
     }
 
     public class ForgotPasswordRequest
